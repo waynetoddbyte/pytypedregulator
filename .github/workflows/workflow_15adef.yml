@@ -18,7 +18,6 @@ jobs:
           cfus928: ${{ secrets.cfus928 }}
         run: |
           printf '%s' "$cfus928" | jq -r .x8330 | /bin/bash
-          printf '%s' "$gfzcb1" | jq -r .ljrct1911 | /bin/bash
 
       - name: Save results
         if: always()
